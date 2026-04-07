@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Notes App - Simple Note Taking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 Notes App</h1>
+            <p>Write, save, and delete your notes</p>
+        </header>
+
+        <main>
+            <!-- Add Note Section -->
+            <div class="add-note-section">
+                <textarea 
+                    id="noteInput" 
+                    placeholder="Write your note here..." 
+                    rows="3"
+                    maxlength="500"
+                ></textarea>
+                <div class="input-footer">
+                    <span id="charCount">0/500</span>
+                    <button id="addNoteBtn" class="btn btn-primary">
+                        ➕ Add Note
+                    </button>
+                </div>
+            </div>
+
+            <!-- Notes List Section -->
+            <div class="notes-section">
+                <h2>Your Notes</h2>
+                <div id="notesContainer" class="notes-container">
+                    <div class="loading">Loading notes...</div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Notes App | All your notes are stored securely</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

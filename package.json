@@ -1,0 +1,22 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "A simple full-stack notes application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0"
+  },
+  "keywords": [
+    "notes",
+    "express",
+    "mysql"
+  ],
+  "author": "",
+  "license": "MIT"
+}
