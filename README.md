@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# notes-app
-notes-app user fiendly
-=======
 ---
 title: Notes App
 emoji: 🌖
@@ -11,5 +7,9 @@ sdk: docker
 pinned: false
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
->>>>>>> 3f7178cf34bee529a532e57c7d5e7ac7a8508e62
+# notes-app
+A user-friendly notes app built with Node.js.  
+
+This app allows you to create, edit, and manage your notes in a simple and intuitive interface.
+
+Check out the configuration reference at [Hugging Face Spaces Config](https://huggingface.co/docs/hub/spaces-config-reference)
